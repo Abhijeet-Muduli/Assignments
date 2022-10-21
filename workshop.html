@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            
+        position: sticky;
+        top: 3px;
+        background-color: rgb(149, 125, 125);
+        
+        }
+        .left{
+           display: inline-block;
+           /* border: 2px solid red; */
+         /*  position: absolute;  /*will shift left to perfect position with respect to headr container*/           
+        }
+        .left img{
+            
+    width: 42px;
+    margin: -34px 90px  
+        }
+        .mid{
+            /* border: 2px solid red; */
+          /* these three  line is used to display center set width of the container is necesary 
+             display: block;
+             width: 23%;
+             margin: 20px 700px;
+            */ 
+           
+            display: block;
+             width: 23%;
+            position: relative;
+            bottom: 17px;
+             margin: 2px 700px;
+        }
+        .navbar{
+
+        }
+        .navbar li{
+            display: inline;
+            
+        }
+        .navbar li a{
+            color: rgb(10, 8, 9);
+            text-decoration: none;
+            font-size: 20px;
+            padding: 13px 12px;
+        }
+       .navbar li a:hover , .navbar li a.active{
+        color: rgb(89, 86, 86);
+        text-decoration: underline;
+
+        }
+      
+       .center{
+       
+        color: rgb(231, 231, 185);
+       }
+       .img1{
+        display: block;
+    width: 23%;
+    margin-bottom: 0px;
+    margin-top: 101px;
+    margin-left: 35%;
+       }
+       #text1{
+        ont-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #74b574
+       }
+       .img2{
+        display: block;
+    width: 67%;
+    margin-bottom: 0px;
+    margin-top: 111px;
+    margin-left: 124px;
+       }
+       .logo{
+        background-color: #fcf9f5;
+       }
+       .img3{
+       display: inline-block;
+      
+      width: 15%;
+      margin-left: 40%;
+      margin-top: 23px;
+       }
+       .text2{
+        color: #74b574;
+    text-align: center;
+    font-size: 36px;
+    font-family: cursive;
+    
+    box-sizing: border-box;
+    margin: 6px;
+       }
+       .text3{
+        font-size: 20px;
+    
+    text-align: center;
+    color: #74b574;
+    padding-bottom: 12px;
+       }
+      #dot{
+       
+    font-weight: bolder;
+    text-align: center;
+    MARGIN-LEFT: 534px;
+    letter-spacing: 17px;
+    color: #e0c199;
+       }
+       .heading{
+    font-size: 47px;
+    font-family: cursive;
+    text-align: center;
+    color: blueviolet;
+    padding: 23px;
+       }
+
+       .img4{
+        
+    display: inline-block;
+    width: 13%;
+    margin-left: 113px;
+       }
+       #text{
+    display: inline-block;
+    width: 41%;
+    margin-left: 336px;
+    position: absolute;
+    padding: 10px;
+    color: #275e27;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+       }
+       .para1{
+    display: inline-block;
+    width: 41%;
+    margin-left: 336px;
+    margin-top: 57px;
+    position: absolute;
+    padding: 10px;
+    color: #a4c724;
+    font-size: 22px;
+       }
+       .container{
+        margin: 15px;
+        
+        background-color: rgb(242, 241, 241);
+       }
+       #heading1{
+       
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 117px;
+    font-family: cursive;
+    
+       }
+       #para2{
+     
+        display: block;
+    margin-left: 115px;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d822f9;
+
+       }
+       .img5{
+       
+    display: inline-block;
+    width: 13%;
+    position: relative;
+    bottom: 146px;
+    left: 740px;
+    margin-left: 113px;
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/assets/img/content/home/hello/me.svg" alt="">
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+        <ul class="navbar">
+        <li> <a href="">About</a></li>
+        <li> <a href="">Work</a></li>
+        <li> <a href="">Photos</a></li>
+    </ul>
+        </div>
+    </header>
+    <div class="center">
+        <img src="https://web.archive.org/web/20180819202235/http://seanhalpin.io/assets/img/content/home/masthead/im-sean.svg" class="img1">
+        <p id="text1"> A web-developer</p>
+       <img  src="https://web.archive.org/web/20180819202235/http://seanhalpin.io/assets/img/content/home/masthead/land.svg" class="img2">
+    </div>
+
+    <div class="logo">
+        <img src="https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/assets/img/content/home/hello/me.svg" class="img3">
+    </div>
+    <p class="text2">Hi.</p>
+    <p class="text3">I'm a web designer / developer <br> based in Toronto, Canada.<br> I have a passion for web design and <br>love to create for web and mobile devices.</p>
+    <br>
+    <br>
+    <span id="dot">.......</span>
+    <br>
+    <br>
+    <div class="heading">What can i do </div>
+        <img src="https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/assets/img/content/home/hello/me.svg" class="img4">
+        
+        <span id="text">design what you want to </span>
+        <span class="para1">I like to keep it simple.<br> My goals are to focus on typography, content and conveying <br>the message that you want to send.</span>
+     <div class="container">
+        <p id="heading1">Develop what you need.</p>
+        <div id="para2">I'm a developer, <br> so I know how to create your website <br>to run across devices using the latest technologies available. 
+            </div>
+        <img src="https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/assets/img/content/home/what-i-do/me-dev.svg" class="img5">
+     </div>
+     
+  
+    
+</body>
+</html>
